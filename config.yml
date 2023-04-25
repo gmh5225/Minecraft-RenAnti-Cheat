@@ -22,9 +22,9 @@
   IPrecord: true
 
   # 期限付きBAN(IPBAN)のレベル
-  # 1日 : 1level
-  # 1週間 : 2level
-  # 1ヶ月 : 3level
-  # 4ヶ月 : 4level
-  # 1年 :  5level
+  # 2level : 1日
+  # 2level : 1週間
+  # 2level : 1ヶ月
+  # 2level : 4ヶ月
+  # 5level :  1年
   levels : 4level
