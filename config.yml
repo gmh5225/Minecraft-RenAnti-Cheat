@@ -1,0 +1,30 @@
+  #ライセンスキーの入力
+  LicenceKey:
+  #BE版が参加可能かどうか
+  Geyser:
+    #参加可能:true　参加不可能:false
+    enabled: true
+
+  #検知の強さ
+  #1~100
+  require-link: 55
+
+  #検知した時の操作
+  # 1:永久BAN
+  # 2:期限付きのBAN 
+  # 3:永久IPBAN
+  # 4:期限付きIPBAN
+  # 5:何もしない
+  # 6:自動識別
+  operation: 6
+
+  #参加者のIPアドレスを記録するか
+  IPrecord: true
+
+  # 期限付きBAN(IPBAN)のレベル
+  # 1日 : 1level
+  # 1週間 : 2level
+  # 1ヶ月 : 3level
+  # 4ヶ月 : 4level
+  # 1年 :  5level
+  levels : 4level
